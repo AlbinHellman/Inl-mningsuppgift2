@@ -16,10 +16,11 @@ position: relative;
 
 .textentillbilden {
 position: absolute;
-top: 2rem;
+top: 3rem;
 display: flex;
-justify-content: space-between;
-right: rem;
+padding-left: 20rem;
+
+
 
 
 }
@@ -28,8 +29,7 @@ right: rem;
     font-size: 41px;
     color: #FFFFFF;
     font-family: 'Poppins' serif;
-    padding-left: 20rem;
-    padding-top: 1rem;
+    
 }
 
 .navbar-brand {
@@ -37,6 +37,7 @@ right: rem;
     font-size: 18px;
     font-family: 'Roboto', serif;
     padding-top: 20px;
+    margin-left: 1rem;
     
     
    
@@ -47,8 +48,9 @@ right: rem;
     color: #FFBB00;
     font-size: 18px;
     font-family: 'Roboto', serif;
-    padding-top: 20px;
-    padding-left: 14rem;
+    margin-top: 12px;
+    margin-left: 13rem;
+  
 }
 
 .navbar-yellow {
@@ -56,6 +58,11 @@ right: rem;
     font-size: 18px;
     font-family: 'Roboto', serif;
     padding-top: 20px;
+    margin-left: 1rem;
 
 }
+
+    
+    
+  
 
