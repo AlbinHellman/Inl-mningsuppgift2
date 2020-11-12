@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    
+    }
+
 .toppen img{
     max-width: 100%;
     max-height: 100%;
@@ -9,9 +16,11 @@ position: relative;
 
 .textentillbilden {
 position: absolute;
-top: 1px;
+top: 2rem;
 display: flex;
 justify-content: space-between;
+right: rem;
+
 
 }
 
@@ -19,23 +28,34 @@ justify-content: space-between;
     font-size: 41px;
     color: #FFFFFF;
     font-family: 'Poppins' serif;
+    padding-left: 20rem;
+    padding-top: 1rem;
 }
 
 .navbar-brand {
     color:#FFFFFF;
     font-size: 18px;
     font-family: 'Roboto', serif;
+    padding-top: 20px;
+    
+    
+   
+   
 }
 
 .navbar {
     color: #FFBB00;
     font-size: 18px;
     font-family: 'Roboto', serif;
+    padding-top: 20px;
+    padding-left: 14rem;
 }
 
 .navbar-yellow {
     color:#FFFFFF;
     font-size: 18px;
     font-family: 'Roboto', serif;
+    padding-top: 20px;
 
 }
+
