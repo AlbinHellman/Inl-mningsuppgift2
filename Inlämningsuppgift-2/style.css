@@ -117,10 +117,7 @@ padding-left: 17.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    padding-left: 10rem;
-    padding-right:10rem;
-    padding-top: 4rem;
-    margin-bottom:-1.35rem;
+   
     
     
     
@@ -134,7 +131,26 @@ padding-left: 17.5rem;
 
 }
 
-#gubbe: a
+#gubbe {
+    grid-area: a;
+}
+
+
+#hej {
+    grid-area: h;
+}
+
+#btn-download {
+    grid-area: f;
+}
+
+#Icon {
+    grid-area: b;
+}
+
+#Video {
+    grid-area: i
+}
 
 .gubbe {
     position: relative;
