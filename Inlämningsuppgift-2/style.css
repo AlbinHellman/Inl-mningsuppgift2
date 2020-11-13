@@ -16,9 +16,10 @@ position: relative;
 
 .textentillbilden {
 position: absolute;
-top: 3rem;
+top: 3.7rem;
 display: flex;
 padding-left: 20rem;
+
 
 
 
@@ -29,37 +30,73 @@ padding-left: 20rem;
     font-size: 41px;
     color: #FFFFFF;
     font-family: 'Poppins' serif;
+    margin-left: 3rem;
+
     
+}
+
+.navnav:hover {
+    text-decoration: none;
 }
 
 .navbar-brand {
     color:#FFFFFF;
     font-size: 18px;
     font-family: 'Roboto', serif;
-    padding-top: 20px;
+    padding-top: 9px;
     margin-left: 1rem;
     
     
+    
    
    
+}
+.nav {
+    color:#FFFFFF;
+    font-size: 18px;
+    font-family: 'Roboto', serif;
+    padding-top: 10px;
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+.nav:hover {
+   text-decoration: none;
 }
 
 .navbar {
     color: #FFBB00;
     font-size: 18px;
     font-family: 'Roboto', serif;
-    margin-top: 12px;
-    margin-left: 13rem;
+    margin-left: 10rem;
   
 }
 
-.navbar-yellow {
-    color:#FFFFFF;
-    font-size: 18px;
-    font-family: 'Roboto', serif;
-    padding-top: 20px;
-    margin-left: 1rem;
+.navbar:hover {
+    text-decoration: none;
+}
 
+.btn-orange p {
+    color:#FFFFFF;
+    font-size: 16px;
+    font-family: 'Roboto', serif;
+    margin-top: 2px;
+    
+}
+.btn-orange {
+    background-color:#FFBB00;
+    height: 2.7rem;
+    border-radius: 10px;
+    width: 9rem;
+    margin-top: 10px;
+    
+    
+}
+
+.btn-orange:hover{
+    background-color:#9e8636;
+    color: black;
+    
+    
 }
 
     
