@@ -117,6 +117,10 @@ padding-left: 17.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+    position: relative;
+bottom: 35rem;
+
+
    
     
     
@@ -127,37 +131,38 @@ padding-left: 17.5rem;
   
   
   grid-template-areas: "h h h a a"
-                      "f b i a a"
+                      "f f f a a"
+                      "b i j a a "
 
 }
 
-#gubbe {
-    grid-area: a;
-}
-
-
-#hej {
+#box-1 {
     grid-area: h;
 }
 
-#btn-download {
+
+#box-2 {
+    grid-area: a;
+    position: relative;
+}
+
+#box-3 {
     grid-area: f;
 }
 
-#Icon {
+#box-4 {
     grid-area: b;
 }
 
-#Video {
+#box-5 {
     grid-area: i
 }
 
-.gubbe {
-    position: relative;
-
-    bottom: 39rem;
-    padding-left: 44rem;
+#box-6 {
+    grid-area: j
 }
+
+
 
     
     
