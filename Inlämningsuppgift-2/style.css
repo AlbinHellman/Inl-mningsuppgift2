@@ -113,6 +113,29 @@ padding-left: 17.5rem;
     
 }
 
+.grid33 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-left: 10rem;
+    padding-right:10rem;
+    padding-top: 4rem;
+    margin-bottom:-1.35rem;
+    
+    
+    
+    
+    
+  
+  
+  
+  grid-template-areas: "h h h a a"
+                      "f b i a a"
+
+}
+
+#gubbe: a
+
 .gubbe {
     position: relative;
 
