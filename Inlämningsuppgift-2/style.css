@@ -16,9 +16,9 @@ position: relative;
 
 .textentillbilden {
 position: absolute;
-top: 3.7rem;
+top: 2rem;
 display: flex;
-padding-left: 20rem;
+padding-left: 17.5rem;
 
 
 
@@ -26,13 +26,21 @@ padding-left: 20rem;
 
 }
 
-.navnav {
-    font-size: 41px;
+.navnav h1{
     color: #FFFFFF;
     font-family: 'Poppins' serif;
-    margin-left: 3rem;
+    font-size: 41px;
+    font-weight: bold;
+   
+    
 
     
+}
+
+
+.rundikon {
+    padding-top: 1.3rem;
+    margin-left: 3px;
 }
 
 .navnav:hover {
@@ -41,10 +49,11 @@ padding-left: 20rem;
 
 .navbar-brand {
     color:#FFFFFF;
-    font-size: 18px;
     font-family: 'Roboto', serif;
-    padding-top: 9px;
+    padding-top: 1rem;
     margin-left: 1rem;
+    font-size: 18px;
+    font-weight: Medium;
     
     
     
@@ -55,9 +64,10 @@ padding-left: 20rem;
     color:#FFFFFF;
     font-size: 18px;
     font-family: 'Roboto', serif;
-    padding-top: 10px;
+    padding-top: 1rem;
     margin-left: 1rem;
     margin-right: 3rem;
+    font-weight: Medium;
 }
 .nav:hover {
    text-decoration: none;
@@ -68,8 +78,8 @@ padding-left: 20rem;
     font-size: 18px;
     font-family: 'Roboto', serif;
     margin-left: 10rem;
-    font-weight: 350;
-    
+    font-weight: Medium;
+    margin-top:7px;
     
   
 }
@@ -83,13 +93,14 @@ padding-left: 20rem;
     font-size: 16px;
     font-family: 'Roboto', serif;
     margin-top: 2px;
+    font-weight: Medium;
     
 }
 .btn-orange {
     background-color:#FFBB00;
     height: 2.7rem;
     border-radius: 10px;
-    width: 9rem;
+    width: 8rem;
     margin-top: 10px;
     
     
@@ -100,6 +111,13 @@ padding-left: 20rem;
     color: black;
     
     
+}
+
+.gubbe {
+    position: relative;
+
+    bottom: 39rem;
+    padding-left: 44rem;
 }
 
     
