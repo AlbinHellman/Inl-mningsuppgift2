@@ -16,15 +16,17 @@ position: relative;
 
 .textentillbilden {
 position: absolute;
-top: 2rem;
+top: 1rem;
 display: flex;
-padding-left: 17.5rem;
-
-
-
-
+margin: 0 auto;
+width: 1200px;
 
 }
+
+
+
+
+
 
 .navnav h1{
     color: #FFFFFF;
@@ -118,7 +120,9 @@ padding-left: 17.5rem;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     position: relative;
-bottom: 35rem;
+bottom: 37rem;
+margin:0 auto;
+width: 1200px;
 
 
    
@@ -138,28 +142,88 @@ bottom: 35rem;
 
 #box-1 {
     grid-area: h;
+    
+    
+    
+}
+
+#box-1 h1 {
+    font-size: 57px;
+    font-weight: bold;
+    font-family: 'Poppins', serif;
+    color:#FFFFFF;
+    padding-top: 6rem;
+
+    
+  
 }
 
 
 #box-2 {
     grid-area: a;
-    position: relative;
+    margin-top: -3rem;
 }
+
+
 
 #box-3 {
     grid-area: f;
+}
+
+#box-3 p {
+    color: #FFFFFF;
+    font-style: 'Poppins', serif;
+    margin-top: -8rem;
 }
 
 #box-4 {
     grid-area: b;
 }
 
+#box-4 p {
+    font-family: 'Roboto', serif;
+    color: #FFFFFF;
+}
+
+.btn-download {
+    
+    height: 2.7rem;
+    border-radius: 10px;
+    margin-top: -25rem;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    
+}
+
+.btn-download:hover {
+    background-color: #FFBB00;
+}
+
+ 
+
 #box-5 {
     grid-area: i
 }
 
+#box-5 img {
+    margin-top: -25rem;
+    margin-left: -3rem;
+}
+
 #box-6 {
     grid-area: j
+}
+
+#box-6 {
+    margin-top: -195px;
+    margin-left: -190px; 
+    color: #FFFFFF;
+}
+
+#box-6 p {
+    font-family: 'Roboto', serif;
+    font-weight: Medium;
+    font-size: 16px;
 }
 
 
