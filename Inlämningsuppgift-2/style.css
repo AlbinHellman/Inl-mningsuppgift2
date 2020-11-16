@@ -235,7 +235,85 @@ width: 1200px;
     margin-top: -35rem;
     
 }
+   
+
+.grid44 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+padding-top: 10rem;
+
+
+   
+    
+    
+    
     
     
   
+  
+                      
+                   
+grid-template-areas: "x x y y y"
+                     "x x z z z"
+                     "x x v v v"
+                     "x x w u"
+}
+    
+  
+#box-7 {
+    grid-area: y;
+}
 
+#box-7 p {
+    margin-left: 20rem;
+}
+
+#box-8 {
+    grid-area: x;
+}
+
+#box-9 {
+    grid-area: z;
+}
+
+#box-9 h1 {
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    font-size: ;
+}
+
+#box-9 h1 {
+    margin-top: 4rem;
+    margin-left: 20rem;
+}
+
+#box-10 {
+    grid-area: v;
+    
+}
+
+#box-10 p {
+   font-size: 16px;
+   margin-top: 9rem;
+   margin-left: 20rem;
+}
+
+#box-11 {
+    grid-area: w;
+}
+
+#box-11 {
+    margin-top: 30rem;
+    margin-left: 30rem;
+   
+}
+
+#box-12 {
+    grid-area: u;
+    margin-left: 30rem;
+    margin-top: -7rem;
+}
