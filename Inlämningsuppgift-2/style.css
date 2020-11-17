@@ -362,16 +362,10 @@ margin-top: 14rem;
 #box-18 {
     grid-area: b; 
 }
-.knappar{
- margin-top: 15rem;
+.box-18 p {
+    margin-right: -15rem ;
 }
-.knappar1 {
-    display: flex;
-    
-}
-
-.knappar2 {
-    display: flex;
-    
-    
+.container1 {
+    margin-top: -3rem;
+   
 }
