@@ -369,3 +369,10 @@ margin-top: 14rem;
     margin-top: -3rem;
    
 }
+
+.statistics h1 {
+    text-align: center;
+}
+.statistics p {
+    text-align: center;
+}
