@@ -260,14 +260,14 @@ padding-top: 10rem;
 grid-template-areas: 
                      "x x z z z"
                      "x x v v v"
-                     "x x w u"
+                     "x x w w w"
 }
     
   
 
 
-.about1 p {
-    padding-left: rem;
+#box-7 {
+    grid-area: z;
 }
 
 #box-8 {
@@ -275,7 +275,7 @@ grid-template-areas:
 }
 
 #box-9 {
-    grid-area: z;
+    grid-area: v;
 }
 
 #box-9 h1 {
@@ -286,18 +286,16 @@ grid-template-areas:
 
 #box-9 h1 {
     margin-top: 4rem;
-    margin-left: 20rem;
 }
 
 #box-10 {
-    grid-area: v;
+    grid-area: w;
     
 }
 
 #box-10 p {
    font-size: 16px;
    margin-top: 9rem;
-   margin-left: 20rem;
    color:#8A8A8A;
 }
 
