@@ -490,6 +490,18 @@ margin-top: 14rem;
     margin-right: -15rem ;
     bottom: 12rem;
 }
+.row {
+    position: relative;
+    top: -12rem;
+}
+.flytt {
+    display: flex;
+}
+.stortext {
+    font-size: 20px;
+    font-family: 'Roboto', serif;
+}
+
 .ease {
     display: flex;
 }
