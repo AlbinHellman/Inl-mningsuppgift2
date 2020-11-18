@@ -488,18 +488,30 @@ margin-top: 14rem;
 .box-18 p {
     position: relative;
     margin-right: -15rem ;
+    color: #8A8A8A;
     bottom: 12rem;
 }
 .row {
     position: relative;
     top: -12rem;
+    margin-left: 9rem;
 }
 .flytt {
     display: flex;
 }
+.flytt2 p{
+    color:#8A8A8A;
+    margin-left: 4rem;
+    font-size: 14;
+    margin-top: -20px;
+}
 .stortext {
     font-size: 20px;
     font-family: 'Roboto', serif;
+    font-weight: bolder;
+    margin-left: 1rem;
+    position: relative;
+    bottom: 5px;
 }
 
 .ease {
