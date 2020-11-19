@@ -538,7 +538,7 @@ margin-top: 14rem;
 
 .statistics h1 {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 5rem;
     font-size: 40px;
     font-family: 'Roboto', serif;
     font-weight: bolder;
@@ -625,3 +625,50 @@ margin-top: 14rem;
     position: relative;
     right: 2rem;
 }
+
+.bakgrund-bild{
+    text-align: center;
+    position: relative;
+    bottom: 17rem;
+}
+
+
+.grid99 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    position: relative;
+margin:0 auto;
+width: 980px;
+margin-top: 1rem; 
+
+
+
+grid-template-areas: "h a"
+                      "k a"
+                      "b c a"
+}
+
+#box-30 {
+    grid-area: h;
+    margin-top: -15rem;
+}
+
+#box-31 {
+    grid-area: a;
+   
+}
+#box-32 {
+    grid-area: k;
+    position: relative;
+    bottom: 9rem;
+}
+#box-33 {
+    grid-area: b;
+    margin-top: 23rem;
+}
+#box-34 {
+    grid-area: c;
+    margin-top: 22rem;
+}
+
