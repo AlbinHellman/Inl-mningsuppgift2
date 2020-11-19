@@ -554,6 +554,7 @@ margin-top: 14rem;
     height: 32rem;
     position: relative;
     top: 3rem;
+    right: 3.5rem;
     
 
 
@@ -562,20 +563,20 @@ margin-top: 14rem;
 .iphones1 {
     display: flex;
     position: relative;
-    right: 2rem;
+    right: 10rem;
     top: 3rem;
 }
 .iphones3{
     display: flex;
     position: relative;
     top: 3rem;
-    left: 2rem;
+    left: 7rem;
 }
 .iphones4 {
     display: flex;
     position: relative;
     top: 3rem;
-    left: 4rem;
+    left: 14rem;
 }
 .row-5 {
     display: flex;
