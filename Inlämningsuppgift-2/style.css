@@ -671,4 +671,7 @@ grid-template-areas: "h a"
     grid-area: c;
     margin-top: 22rem;
 }
+.statistics7 {
+    text-align: center;
+}
 
