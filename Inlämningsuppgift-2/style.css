@@ -583,13 +583,45 @@ margin-top: 14rem;
 }
 .row-6 {
     display: flex;
+    text-align: center;
+}
+.row-9 {
+    display: flex;
+    text-align: center;
 }
 .siffror h1{
     font-size: 40px;
     color:#3096FE;
     font-family: 'URW DIN Arabic' serif;
     font-weight: bold;
+    position: relative;
+    right: 2rem;
 }
-.row-9 {
-    display: flex;
+.siffror2 p{
+    font-size: 25px;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    position: relative;
+    right: 1.5rem;
+}
+.siffror3 p{
+    font-size: 25px;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    position: relative;
+    right: 1.5rem;
+}
+.siffror4 p{
+    font-size: 25px;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    position: relative;
+    right: 1.5rem;
+}
+.siffror5 p{
+    font-size: 25px;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    position: relative;
+    right: 2rem;
 }
