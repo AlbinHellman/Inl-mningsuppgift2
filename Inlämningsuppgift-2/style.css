@@ -541,11 +541,55 @@ margin-top: 14rem;
     margin-top: 1rem;
     font-size: 40px;
     font-family: 'Roboto', serif;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .statistics p {
     text-align: center;
+    margin-bottom: 3rem;
+    font-family: 'Roboto', serif;
+    color:#8A8A8A;
+}
+
+.iphones img {
+    height: 32rem;
+    position: relative;
+    top: 3rem;
+    
+
+
+}
+
+.iphones1 {
+    display: flex;
+    position: relative;
+    right: 2rem;
+    top: 3rem;
+}
+.iphones3{
+    display: flex;
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+}
+.iphones4 {
+    display: flex;
+    position: relative;
+    top: 3rem;
+    left: 4rem;
 }
 .row-5 {
+    display: flex;
+   
+}
+.row-6 {
+    display: flex;
+}
+.siffror h1{
+    font-size: 40px;
+    color:#3096FE;
+    font-family: 'URW DIN Arabic' serif;
+    font-weight: bold;
+}
+.row-9 {
     display: flex;
 }
