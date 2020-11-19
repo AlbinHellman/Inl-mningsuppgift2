@@ -468,6 +468,20 @@ margin-top: 14rem;
 #box-15 {
     grid-area: h;
 }
+.btn-features {
+    background-color: #FFBB00;
+    opacity: 15%;
+    border-radius: 8px;
+    height: 2rem;
+    color:#FFBB00;
+    
+   
+}
+.btn-features p{
+    position: relative;
+    bottom: 5px;
+    
+}
 
 #box-16 {
     grid-area: a;
@@ -478,7 +492,7 @@ margin-top: 14rem;
 }
 #box-17 h1{
     position: relative;
-    bottom:7rem;
+    bottom:6rem;
 }
 
 #box-18 {
@@ -493,7 +507,7 @@ margin-top: 14rem;
 }
 .row {
     position: relative;
-    top: -12rem;
+    top: -13.5rem;
     margin-left: 9rem;
 }
 .flytt {
@@ -524,7 +538,14 @@ margin-top: 14rem;
 
 .statistics h1 {
     text-align: center;
+    margin-top: 1rem;
+    font-size: 40px;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
 }
 .statistics p {
     text-align: center;
+}
+.row-5 {
+    display: flex;
 }
