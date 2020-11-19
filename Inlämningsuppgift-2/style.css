@@ -639,39 +639,78 @@ margin-top: 14rem;
     gap: 1rem;
     position: relative;
 margin:0 auto;
-width: 980px;
-margin-top: 1rem; 
+width: 1200px;
+margin-top: 14rem;
 
 
 
-grid-template-areas: "h a"
-                      "k a"
-                      "b c a"
+
+   
+    
+    
+    
+    
+    
+  
+  
+  
+  grid-template-areas: "h h h h"
+                      "k k k k"
+                      "b b m m"
+                     
+                      
+                      
+
 }
 
 #box-30 {
     grid-area: h;
-    margin-top: -15rem;
+    margin-top: -20rem;
+    margin-right: 25rem;
+}
+#box-30 h1{
+    font-size: 50px;
 }
 
 #box-31 {
-    grid-area: a;
+    grid-area: k;
+    margin-top: -10rem;
+    margin-right: 33rem;
+    
    
 }
+
 #box-32 {
-    grid-area: k;
-    position: relative;
-    bottom: 9rem;
+    grid-area: b;
+    margin-top: -5rem;
+    margin-left: -1rem;
 }
 #box-33 {
-    grid-area: b;
-    margin-top: 23rem;
+    grid-area: m;
+    margin-top: -5rem;
+    margin-left: -34rem;
 }
-#box-34 {
-    grid-area: c;
-    margin-top: 22rem;
-}
+
+
+
 .statistics7 {
     text-align: center;
 }
 
+
+.row-15 {
+    display: flex;
+}
+.siffror6 img{
+    height: 500px;
+    position: relative;
+    top: 6rem;
+    left: 24rem;
+}
+
+.siffror8 img{
+    height: 500px;
+    position: relative;
+    top: 6rem;
+    right: 24rem;
+}
