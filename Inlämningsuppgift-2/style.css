@@ -641,7 +641,7 @@ margin-top: 14rem;
     position: relative;
 margin:0 auto;
 width: 1200px;
-margin-top: 14rem;
+margin-top: 10rem;
 
 
 
@@ -655,8 +655,8 @@ margin-top: 14rem;
   
   
   
-  grid-template-areas: "h h h h"
-                      "k k k k"
+  grid-template-areas: "h h a a"
+                      "k k a a"
                       "b b m m"
                      
                       
@@ -701,17 +701,29 @@ margin-top: 14rem;
 
 .row-15 {
     display: flex;
+    position: relative;
+    bottom: 25rem;
 }
 .siffror6 img{
     height: 500px;
     position: relative;
     top: 6rem;
-    left: 24rem;
+    left: 15rem;
+}
+.siffror7 img {
+    margin-left: rem;
+    
+   
 }
 
 .siffror8 img{
     height: 500px;
     position: relative;
     top: 6rem;
-    right: 24rem;
+}
+
+
+
+#box-34{
+    grid-area: a;
 }
