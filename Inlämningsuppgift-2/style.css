@@ -632,6 +632,13 @@ margin-top: 14rem;
     position: relative;
     bottom: 17rem;
 }
+.bakgrundsbild2 img{
+    height: 100%;
+    width: 100%;
+    
+    color: #1487FD;
+    background-color: #1487FD;
+}
 
 
 .grid99 {
@@ -640,8 +647,8 @@ margin-top: 14rem;
     gap: 1rem;
     position: relative;
 margin:0 auto;
-width: 1200px;
-margin-top: 10rem;
+width: 980px;
+
 
 
 
@@ -671,6 +678,9 @@ margin-top: 10rem;
 }
 #box-30 h1{
     font-size: 50px;
+    color: #FFFFFF;
+    margin-right: -33rem;
+    font-weight: bold;
 }
 
 #box-31 {
@@ -679,6 +689,10 @@ margin-top: 10rem;
     margin-right: 33rem;
     
    
+}
+#box-31 p{
+    color: #FFFFFF;
+    margin-right: -30rem;
 }
 
 #box-32 {
@@ -708,19 +722,26 @@ margin-top: 10rem;
     height: 500px;
     position: relative;
     top: 6rem;
-    left: 15rem;
+    left: 23.5rem;
 }
 .siffror7 img {
-    margin-left: rem;
+    position: relative;
+    right: 8rem;
     
-   
-}
+    
+    
+   }
+
 
 .siffror8 img{
     height: 500px;
     position: relative;
     top: 6rem;
+    left: 21rem;
+
+    
 }
+
 
 
 
