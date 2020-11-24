@@ -635,8 +635,8 @@ margin-top: 14rem;
 .bakgrundsbild2 img{
     height: 100%;
     width: 100%;
-    
-    color: #1487FD;
+    position: relative;
+    bottom: 12rem;
     background-color: #1487FD;
 }
 
@@ -648,6 +648,7 @@ margin-top: 14rem;
     position: relative;
 margin:0 auto;
 width: 980px;
+
 
 
 
@@ -677,33 +678,40 @@ width: 980px;
     margin-right: 25rem;
 }
 #box-30 h1{
-    font-size: 50px;
+    font-size: 50;
     color: #FFFFFF;
-    margin-right: -33rem;
+    margin-right: -25rem;
     font-weight: bold;
+    margin-top: -14rem;
 }
 
 #box-31 {
     grid-area: k;
-    margin-top: -10rem;
-    margin-right: 33rem;
+   
     
    
 }
 #box-31 p{
     color: #FFFFFF;
-    margin-right: -30rem;
+    font-family: 'Roboto', serif;
+    font-size: 16;
+    position: relative;
+    bottom: 53rem;
+    margin-right: 3rem;
 }
 
 #box-32 {
     grid-area: b;
-    margin-top: -5rem;
     margin-left: -1rem;
+    position: relative;
+    bottom: 53rem;
 }
 #box-33 {
     grid-area: m;
-    margin-top: -5rem;
     margin-left: -34rem;
+    position: relative;
+    bottom: 53rem;
+    left: 130px;
 }
 
 
@@ -715,18 +723,26 @@ width: 980px;
 
 .row-15 {
     display: flex;
+    margin-right: -5rem;
     position: relative;
-    bottom: 25rem;
+    top: 2rem;
 }
 .siffror6 img{
     height: 500px;
+    width: 200px;
     position: relative;
-    top: 6rem;
-    left: 23.5rem;
+    bottom: 35rem;
+    right: 1rem;
+
 }
 .siffror7 img {
+    width: 85%;
+    height: 500px;
+    width: 220px;
     position: relative;
-    right: 8rem;
+    bottom: 37rem;
+    right: 23.5rem;
+    
     
     
     
@@ -735,9 +751,10 @@ width: 980px;
 
 .siffror8 img{
     height: 500px;
+    width: 200px;
     position: relative;
-    top: 6rem;
-    left: 21rem;
+    bottom:35rem;
+    right: 2.5rem;
 
     
 }
@@ -747,4 +764,11 @@ width: 980px;
 
 #box-34{
     grid-area: a;
+}
+.contact21 {
+    position: absolute;
+    text-align: center;
+    
+    bottom: 30rem;
+    
 }
