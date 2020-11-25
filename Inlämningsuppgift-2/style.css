@@ -765,6 +765,8 @@ width: 980px;
 #box-34{
     grid-area: a;
 }
+
+
 .contact21 {
     position: absolute;
     text-align: center;
@@ -772,3 +774,28 @@ width: 980px;
     bottom: 30rem;
     
 }
+
+.Enter {
+   display: flex;
+}
+
+#Exempelform {}
+#Exempelform > label {}
+#Exempelform > label > span {
+    color:#CCCCCC;
+
+
+}
+
+#Exempelform2 {}
+#Exempelform2 > label {}
+#Exempelform2 > label> span {
+    color: #CCCCCC;
+}
+
+#Exempelform3 {}
+#Exempelform3 > label {}
+#Exempelform3 > label> span {
+    color: #CCCCCC;
+}
+    
