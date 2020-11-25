@@ -777,25 +777,58 @@ width: 980px;
 
 .Enter {
    display: flex;
+   
+}
+
+#Exempelform {}
+#Exempelform > input {
+    color:black;
+    font-family: 'Roboto', serif;
 }
 
 #Exempelform {}
 #Exempelform > label {}
 #Exempelform > label > span {
     color:#CCCCCC;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
 
+}
 
+#Exempelform {}
+#Exempelform > label {
+    position: absolute;
+    left: 15px;
+}
+.Enter2 {
+    margin-left: 20rem;
 }
 
 #Exempelform2 {}
 #Exempelform2 > label {}
 #Exempelform2 > label> span {
     color: #CCCCCC;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+}
+
+#Exempelform2 {}
+#Exempelform2 > label {
+    position: absolute;
+    left: 35rem;
+    
+    
 }
 
 #Exempelform3 {}
 #Exempelform3 > label {}
 #Exempelform3 > label> span {
     color: #CCCCCC;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
 }
-    
+#Exempelform3 {}
+#Exempelform3 > label {
+    position: absolute;
+    left: 47.5rem;
+}
