@@ -856,6 +856,7 @@ width: 980px;
 
 
 #Exempelform3 {
+    height: 20rem;
     position: relative;
     bottom:22rem;
     right: 5px;
@@ -870,6 +871,7 @@ width: 980px;
     color: #CCCCCC;
     font-family: 'Roboto', serif;
     font-size: 16px;
+    
 }
 #Exempelform3 {}
 #Exempelform3 > label {
@@ -887,7 +889,8 @@ width: 980px;
 .btn-knapp p{
     font-family: 'Roboto', serif;
     font-size: 16px;
+    color: #FFFFFF;
     font-weight: medium;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
