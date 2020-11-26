@@ -822,6 +822,7 @@ width: 980px;
 
 
 .Enter2 {
+    position: absolute;
     margin-left: 20rem;
 }
 
@@ -855,8 +856,8 @@ width: 980px;
 }
 
 
+
 #Exempelform3 {
-    height: 20rem;
     position: relative;
     bottom:22rem;
     right: 5px;
@@ -864,6 +865,12 @@ width: 980px;
 #Exempelform3 {}
 #Exempelform3 > input {
     border: none;
+    position: absolute;
+    width: 60rem;
+    height: 20rem;
+    background-color: #FBFBFB;
+    
+    
 }
 #Exempelform3 {}
 #Exempelform3 > label {}
@@ -881,7 +888,6 @@ width: 980px;
 }
 
 .btn-knapp {
-    text-align: center;
     background-color: #3096FE;
     width: 250px;
 }
