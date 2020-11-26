@@ -775,9 +775,15 @@ width: 980px;
     
 }
 
+
 .Enter {
    display: flex;
    
+}
+
+#Exempelform {
+    position: relative;
+    bottom:25rem;
 }
 
 #Exempelform {}
@@ -799,9 +805,30 @@ width: 980px;
 #Exempelform > label {
     position: absolute;
     left: 15px;
+    background-color: #FBFBFB;
+    
+    
 }
+
+#Exempelform {}
+#Exempelform > label::after {
+}
+
+#Exempelform {}
+#Exempelform > input {
+    border: none;
+}
+
+
+
 .Enter2 {
     margin-left: 20rem;
+}
+
+
+#Exempelform2 {
+    position: relative;
+    bottom:26.5rem;
 }
 
 #Exempelform2 {}
@@ -815,11 +842,28 @@ width: 980px;
 #Exempelform2 {}
 #Exempelform2 > label {
     position: absolute;
-    left: 35rem;
+    right: 3rem;
+    
     
     
 }
 
+#Exempelform2 {}
+#Exempelform2 > input {
+    border: none;
+
+}
+
+
+#Exempelform3 {
+    position: relative;
+    bottom:22rem;
+    right: 5px;
+}
+#Exempelform3 {}
+#Exempelform3 > input {
+    border: none;
+}
 #Exempelform3 {}
 #Exempelform3 > label {}
 #Exempelform3 > label> span {
@@ -830,5 +874,20 @@ width: 980px;
 #Exempelform3 {}
 #Exempelform3 > label {
     position: absolute;
-    left: 47.5rem;
+    left: 1rem;
+    
 }
+
+.btn-knapp {
+    text-align: center;
+    background-color: #3096FE;
+    width: 250px;
+}
+
+.btn-knapp p{
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: medium;
+    border-radius: 10px;
+}
+
