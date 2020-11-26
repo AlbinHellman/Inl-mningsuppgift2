@@ -933,7 +933,7 @@ width: 980px;
     font-family: 'Poppins', serif;
     font-size: 41px;
     position: relative;
-    bottom: 3rem;
+    bottom: 1rem;
 }
 
 
@@ -947,6 +947,17 @@ width: 980px;
 .rundikon2 img{
     position: relative;
     left: 4.2rem;
-    bottom: 5.5rem;
+    bottom: 3.5rem;
+}
+
+.sistadel {
+    display: flex;
+}
+
+.sistadel p {
+    color: #FFFFFF;
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    margin-left: 2rem;
 }
 
