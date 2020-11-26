@@ -919,13 +919,34 @@ width: 980px;
     top: 0.5rem;
 }
 
+.container34 {
+    position: absolute;
+    text-align: center;
+    margin-top: 40rem;
 
-.längstner img{
- display:block;
- margin-left: auto;
- margin-right: auto;
- max-width: 155%;
- max-height: 100%;
-position: absolute;
-left: -270px;
+
 }
+
+.container34 h1{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Poppins', serif;
+    font-size: 41px;
+    position: relative;
+    bottom: 3rem;
+}
+
+
+.center55{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rundikon2 img{
+    position: relative;
+    left: 4.2rem;
+    bottom: 5.5rem;
+}
+
