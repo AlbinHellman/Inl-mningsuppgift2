@@ -18,8 +18,7 @@ position: relative;
 position: absolute;
 top: 1rem;
 display: flex;
-margin: auto;
-width: 1200px;
+
 
 }
 
@@ -33,6 +32,10 @@ width: 1200px;
     font-family: 'Poppins' serif;
     font-size: 41px;
     font-weight: bold;
+    position: relative;
+    margin-right: 22rem;
+    left: 10rem;
+    
    
     
 
@@ -42,7 +45,8 @@ width: 1200px;
 
 .rundikon {
     padding-top: 1.3rem;
-    margin-left: 3px;
+    position: relative;
+    right: 12rem;
 }
 
 .navnav:hover {
@@ -768,6 +772,8 @@ width: 980px;
 
 
 .contact21 {
+    margin: 0 auto;
+    width: 980px;
     position: absolute;
     text-align: center;
     
@@ -901,6 +907,11 @@ width: 980px;
     
 }
 
+.knapp2 {
+
+    text-align: center;
+}
+
 .btn-knapp {
     background-color: #3096FE;
     width: 200px;
@@ -920,6 +931,9 @@ width: 980px;
 }
 
 .container34 {
+    margin: 0 auto;
+    width: 1525px;
+    overflow: hidden;
     position: absolute;
     text-align: center;
     margin-top: 40rem;
@@ -929,13 +943,19 @@ width: 980px;
 
 }
 
+.container34 img{
+
+    max-width: 122%;
+    max-height: 100%;
+}
+
 .container34 h1{
     color: #FFFFFF;
     font-weight: bold;
     font-family: 'Poppins', serif;
     font-size: 41px;
     position: relative;
-    bottom: 1rem;
+    top: 1rem;
 }
 
 
@@ -946,10 +966,14 @@ width: 980px;
     transform: translate(-50%, -50%);
 }
 
+.navnav h1:hover{
+    color: black;
+}
+
 .rundikon2 img{
     position: relative;
     left: 4.2rem;
-    bottom: 3.5rem;
+    bottom:1.5rem;
 }
 
 .sistadel {
@@ -960,10 +984,38 @@ width: 980px;
     color: #FFFFFF;
     font-family: 'Roboto', serif;
     font-size: 18px;
-    margin-left: 2rem;
+    margin-left: 3rem;
+    text-decoration: none;
+
+}
+
+.navbar2 p:hover{
+   color: black;
+}
+.navbar3 p:hover{
+   color: grey;
+}
+
+.navbar4 p:hover{
+   color: rgb(84, 30, 145);
+
+}
+.navbar5 p:hover{
+   color: rgb(97, 0, 0);
+
+
+}
+
+.navbar6 p:hover{
+   color: rgb(0, 97, 24);
+
+
+}
+
+.navnav3:hover {
+    text-decoration: none;
 }
 
 .ikoner2 img{
-    margin-left: 0.5rem;
+    padding: 0.3rem;
 }
-
