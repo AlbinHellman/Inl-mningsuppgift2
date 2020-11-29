@@ -955,8 +955,7 @@ width: 980px;
     font-weight: bold;
     font-family: 'Poppins', serif;
     font-size: 41px;
-    position: relative;
-    top: 1rem;
+    
 }
 
 
@@ -966,55 +965,41 @@ width: 980px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.navnav2 h1{
-    margin-right: 2rem;
+.navnav22 h1{
+    position: absolute;
+    
 }
 
-.navnav2 h1:hover{
+.navnav22 h1:hover{
     color: black;
 }
 
-.rundikon2 img{
+.rundikon2 {
     position: relative;
-    left: 3.2rem;
+    left: 4rem;
     bottom:1.5rem;
 }
 
-.sistadel {
+
+
+
+.tja44 {
     display: flex;
 }
-
-.sistadel p {
+.navbar77 {
     color: #FFFFFF;
     font-family: 'Roboto', serif;
     font-size: 18px;
     margin-left: 3rem;
     text-decoration: none;
-
+    display: flex;
 }
 
-.navbar2 p:hover{
+.navbar77:hover{
    color: black;
-}
-.navbar3 p:hover{
-   color: grey;
+   text-decoration: none;
 }
 
-.navbar4 p:hover{
-   color: rgb(84, 30, 145);
-
-}
-.navbar5 p:hover{
-   color: rgb(97, 0, 0);
-
-
-}
-
-.navbar6 p:hover{
-   color: rgb(0, 97, 24);
-
-
-}
 
 .navnav3:hover {
     text-decoration: none;
