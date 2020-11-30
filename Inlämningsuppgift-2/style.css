@@ -32,6 +32,7 @@ display: flex;
     font-family: 'Poppins' serif;
     font-size: 41px;
     font-weight: bold;
+    position: absolute;
     margin-left: 10rem;
 
     
@@ -44,9 +45,13 @@ display: flex;
 
 .rundikon {
     padding-top: 1.3rem;
+    position: relative;
+    left: 17.5rem;
+    margin-right: 17rem;
 }
 
-.navnav:hover {
+.navnav h1:hover {
+    color: black;
     text-decoration: none;
 }
 
@@ -63,7 +68,25 @@ display: flex;
    
    
 }
-.nav {
+
+
+.navbar-brand:hover{
+    color: black;
+}
+.nav2  {
+    color:#FFFFFF;
+    font-size: 18px;
+    font-family: 'Roboto', serif;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 3rem;
+    font-weight: Medium;
+}
+.nav2:hover {
+    text-decoration: none;
+    color: black;
+ }
+.nav  {
     color:#FFFFFF;
     font-size: 18px;
     font-family: 'Roboto', serif;
@@ -74,6 +97,7 @@ display: flex;
 }
 .nav:hover {
    text-decoration: none;
+   color: black;
 }
 
 .navbar {
@@ -89,6 +113,7 @@ display: flex;
 
 .navbar:hover {
     text-decoration: none;
+    color: black;
 }
 
 .btn-orange p {
@@ -111,10 +136,12 @@ display: flex;
 
 .btn-orange:hover{
     background-color:#9e8636;
-    color: black;
+    
     
     
 }
+
+
 
 .grid33 {
     display: grid;
@@ -200,6 +227,17 @@ width: 1200px;
     background-color: #FFBB00;
 }
 
+.kolla-video {
+    display: flex;
+}
+
+
+.nav img:hover{
+    opacity: 60%;
+}
+.nav:hover {
+    color: #ffbb00;
+}
  
 
 #box-5 {
@@ -207,8 +245,8 @@ width: 1200px;
 }
 
 #box-5 img {
-    margin-top: -25rem;
-    margin-left: -3rem;
+    margin-top: -27rem;
+    margin-left: -4rem;
 }
 
 #box-6 {
@@ -216,8 +254,8 @@ width: 1200px;
 }
 
 #box-6 {
-    margin-top: -195px;
-    margin-left: -190px; 
+    margin-top: -13.5rem;
+    margin-left: -4rem; 
     color: #FFFFFF;
 }
 
@@ -278,17 +316,29 @@ grid-template-areas:
 
 .btn-about {
     background-color: #FFBB00;
-    height: 2.5rem;
-    opacity: 15%;
+    border-radius: 8px;
+    height: 2rem;
+    width: 6rem;
     margin-bottom: -3rem;
+    opacity: 15%;
 }
 
-.btn-about p{
-    margin-bottom: -10rem;
+.nav999 p{
+    position: absolute;
     color: #FFBB00;
+    font-family: 'Roboto', serif;
+    font-size: 16;
+    font-weight: medium;
+    margin-left: 15px;
     }
+
+    .nav999 p:hover {
+        text-decoration: none;
+        color:  #0099FF;
+    }
+
+   
 .btn-about:hover {
-    background-color: #0099FF;
     cursor: pointer;
 }
 
@@ -471,17 +521,33 @@ margin-top: 14rem;
 }
 .btn-features {
     background-color: #FFBB00;
+    position: relative;
     opacity: 15%;
     border-radius: 8px;
     height: 2rem;
+    width: 6rem;
     color:#FFBB00;
     
    
 }
-.btn-features p{
-    position: relative;
-    bottom: 5px;
+.btn-features:hover{
+    color: #0099FF;
+    cursor: pointer;
     
+}
+
+.nav100 p{
+    position: absolute;
+    bottom: 32rem;
+    left: 1rem;
+    color: #FFBB00;
+    font-family: 'Roboto', serif;
+    font-size: 16;
+    font-weight: medium;
+}
+.nav100 p:hover{
+    color: #0099FF;
+    cursor: pointer;
 }
 
 #box-16 {
@@ -807,6 +873,9 @@ width: 980px;
 #Exempelform > input {
     color:black;
     font-family: 'Roboto', serif;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
 }
 
 #Exempelform {}
@@ -817,6 +886,7 @@ width: 980px;
     font-size: 16px;
 
 }
+
 
 #Exempelform {}
 #Exempelform > label {
@@ -834,6 +904,7 @@ width: 980px;
 #Exempelform {}
 #Exempelform > input {
     border: none;
+
 }
 
 
@@ -868,7 +939,10 @@ width: 980px;
 
 #Exempelform2 {}
 #Exempelform2 > input {
-    border: none;
+    border: black;
+    position: relative;
+    top: 2rem;
+    left: 12px;
 
 }
 
@@ -884,7 +958,9 @@ width: 980px;
     border: none;
     position: absolute;
     width: 60rem;
-    height: 12rem;
+    top: 2rem;
+    left: 1rem;
+    color: black;
     background-color: #FBFBFB;
     
     
@@ -965,19 +1041,22 @@ width: 980px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.navnav22 h1{
+.center55 h1{
     position: absolute;
+    left: 13.5rem;
+    bottom: 4rem;
     
 }
 
-.navnav22 h1:hover{
+.center55 h1:hover{
     color: black;
 }
 
 .rundikon2 {
-    position: relative;
-    left: 4rem;
-    bottom:1.5rem;
+    margin-left: 7rem;
+    
+    
+    
 }
 
 
@@ -985,6 +1064,9 @@ width: 980px;
 
 .tja44 {
     display: flex;
+    position: relative;
+    top: 2rem;
+    right: 3rem;
 }
 .navbar77 {
     color: #FFFFFF;
@@ -993,6 +1075,7 @@ width: 980px;
     margin-left: 3rem;
     text-decoration: none;
     display: flex;
+    font-weight: medium;
 }
 
 .navbar77:hover{
@@ -1006,5 +1089,9 @@ width: 980px;
 }
 
 .ikoner2 img{
-    padding: 0.3rem;
+    margin-right: 1rem;
+    position: relative;
+    top: 3rem;
+    right: 1rem;
+    
 }
