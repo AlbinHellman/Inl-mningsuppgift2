@@ -180,7 +180,9 @@ width: 1200px;
     font-weight: bold;
     font-family: 'Poppins', serif;
     color:#FFFFFF;
-    padding-top: 6rem;
+    position: absolute;
+    top: 5rem;
+    margin-right: 35rem;
 
     
   
@@ -194,6 +196,8 @@ width: 1200px;
 
 
 
+
+
 #box-3 {
     grid-area: f;
 }
@@ -201,7 +205,9 @@ width: 1200px;
 #box-3 p {
     color: #FFFFFF;
     font-style: 'Poppins', serif;
-    margin-top: -8rem;
+    position: absolute;
+    top: 17rem;
+    margin-right: 44rem;
 }
 
 #box-4 {
@@ -217,7 +223,8 @@ width: 1200px;
     
     height: 2.7rem;
     border-radius: 10px;
-    margin-top: -25rem;
+    position: absolute;
+    top: 22rem;
     border: 2px solid #FFFFFF;
     background-color: transparent;
     
@@ -230,6 +237,7 @@ width: 1200px;
 .kolla-video {
     display: flex;
 }
+
 
 
 .nav img:hover{
@@ -245,8 +253,8 @@ width: 1200px;
 }
 
 #box-5 img {
-    margin-top: -27rem;
-    margin-left: -4rem;
+    position: absolute;
+    
 }
 
 #box-6 {
@@ -254,8 +262,7 @@ width: 1200px;
 }
 
 #box-6 {
-    margin-top: -13.5rem;
-    margin-left: -4rem; 
+    
     color: #FFFFFF;
 }
 
@@ -271,7 +278,7 @@ width: 1200px;
     margin: auto;
     width: 980px;
     gap: 5rem;
-    margin-top: -35rem;
+    top: -17rem
     
 }
    
@@ -322,6 +329,8 @@ grid-template-areas:
     margin-bottom: -3rem;
     opacity: 15%;
 }
+
+
 
 .nav999 p{
     position: absolute;
@@ -402,6 +411,11 @@ grid-template-areas:
     border-radius: 10px;
    
 }
+
+.btn-google:hover{
+    background-color: #FFBB00;
+    opacity: 40%;
+}
 .flex {
     display: flex;
     margin-right: 10rem;
@@ -442,6 +456,11 @@ grid-template-areas:
     height: 5.5rem;
     width: 15rem;
     border-radius: 10px;
+}
+
+.btn-Apple:hover{
+    background-color: #FFBB00;
+    opacity: 40%;
 }
 .flex2 {
     display: flex;
