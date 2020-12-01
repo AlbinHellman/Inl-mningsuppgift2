@@ -294,7 +294,13 @@ width: 1200px;
     top: -17rem
     
 }
-   
+
+
+
+
+
+
+
 
 .grid44 {
     display: grid;
@@ -569,8 +575,8 @@ margin-top: 14rem;
 }
 
 .nav100 p{
-    position: absolute;
-    bottom: 32rem;
+    position: relative;
+    bottom: 1.5rem;
     left: 1rem;
     color: #FFBB00;
     font-family: 'Roboto', serif;
@@ -588,10 +594,16 @@ margin-top: 14rem;
 
 #box-17 {
     grid-area: f;
+    
 }
+
+
 #box-17 h1{
     position: relative;
-    bottom:6rem;
+    bottom: 32rem;
+    margin-right: 65rem;
+    left: 10rem;
+    
 }
 
 #box-18 {
@@ -600,9 +612,10 @@ margin-top: 14rem;
 
 .box-18 p {
     position: relative;
-    margin-right: -15rem ;
+    margin-right: 60rem;
     color: #8A8A8A;
-    bottom: 12rem;
+    bottom: 20rem;
+    left: 10rem;
 }
 .row {
     position: relative;
