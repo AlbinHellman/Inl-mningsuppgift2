@@ -207,7 +207,7 @@ width: 1200px;
     font-style: 'Poppins', serif;
     position: absolute;
     top: 17rem;
-    margin-right: 44rem;
+    margin-right: 47rem;
 }
 
 #box-4 {
@@ -236,6 +236,7 @@ width: 1200px;
 
 .kolla-video {
     display: flex;
+    position: absolute;
 }
 
 
@@ -246,30 +247,42 @@ width: 1200px;
 .nav:hover {
     color: #ffbb00;
 }
- 
+
+
+
 
 #box-5 {
     grid-area: i
-}
-
-#box-5 img {
-    position: absolute;
     
 }
 
+#box-5 img{
+    
+    position: absolute;
+    top: 22rem;
+    left: 10rem;
+}
+
+
 #box-6 {
     grid-area: j
+    
 }
 
 #box-6 {
     
     color: #FFFFFF;
+    
 }
 
 #box-6 p {
     font-family: 'Roboto', serif;
     font-weight: Medium;
     font-size: 16px;
+    position: absolute;
+    top: 22rem;
+    left: 15rem; 
+      
 }
 
 .tja {
