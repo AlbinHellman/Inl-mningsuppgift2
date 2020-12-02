@@ -593,9 +593,7 @@ margin-top: 14rem;
     grid-area: a;
 }
 
-#box-16 {
-    
-}
+
 
 #box-17 {
     grid-area: f;
@@ -865,7 +863,10 @@ width: 980px;
     position: absolute;
     text-align: center;
     background-color: white;
-    bottom: 40rem;
+    bottom: 33.4rem;
+    border: none;
+    width: 70rem;
+    height: 22rem;
     
 }
 
@@ -874,15 +875,19 @@ width: 980px;
     font-family: 'Roboto', serif;
     font-size: 40px;
     color: #333333;
+    position: relative;
+    top: 7rem;
+    right: 4rem;
+    
     
 }
 
 .contact21 p{
     color: #8A8A8A;
-    margin-right: 25rem;
+    margin-right: 35rem;
     position: relative;
     left: 12rem;
-    margin-bottom: -10rem;
+    top: 10rem;
 }
 
 
