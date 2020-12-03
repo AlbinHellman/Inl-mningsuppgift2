@@ -593,6 +593,9 @@ margin-top: 14rem;
 
 #box-16 {
     grid-area: a;
+    position: absolute;
+    right: 1rem;
+    margin-bottom: 100rem;
 }
 
 
@@ -607,7 +610,7 @@ margin-top: 14rem;
 
 #box-17 h1{
     position: relative;
-    bottom: 32rem;
+    bottom: 4rem;
     margin-right: 65rem;
     left: 10rem;
     
@@ -621,7 +624,7 @@ margin-top: 14rem;
     position: relative;
     margin-right: 60rem;
     color: #8A8A8A;
-    bottom: 30rem;
+    text-align: left;
     left: 10rem;
     margin-bottom: -10rem;
 }
@@ -653,6 +656,9 @@ margin-top: 14rem;
 }
 .container1 {
     margin-top: -3rem;
+    position: relative;
+    margin-bottom: 30rem;
+    top: 30rem;
    
 }
 
