@@ -432,8 +432,9 @@ grid-template-areas:
 }
 
 .btn-google:hover{
-    background-color: #FFBB00;
-    opacity: 40%;
+    background-color: #1487FD;
+    border: 1px solid black;
+    opacity: 75%;
 }
 .flex {
     display: flex;
@@ -478,8 +479,9 @@ grid-template-areas:
 }
 
 .btn-Apple:hover{
-    background-color: #FFBB00;
-    opacity: 40%;
+    background-color: #1487FD;
+    border: 1px solid black;
+    opacity: 75%;
 }
 .flex2 {
     display: flex;
@@ -863,7 +865,7 @@ width: 980px;
     position: absolute;
     text-align: center;
     background-color: white;
-    bottom: 33.4rem;
+    bottom: 33.35rem;
     border: none;
     width: 70rem;
     height: 22rem;
@@ -895,6 +897,7 @@ width: 980px;
 
 .Enter {
    display: flex;
+   margin-top: -5rem;
    
 }
 
@@ -932,6 +935,7 @@ width: 980px;
     outline: none;
     left: 0px;
     transition: all 0.3 ease;
+    background-color: #FBFBFB;
 
 }
 
@@ -956,6 +960,7 @@ width: 980px;
     border-bottom: none;
     transform: translateX(-101%);
     transition: all 0.3 ease;
+    
 }
 
 
@@ -964,10 +969,12 @@ width: 980px;
     transition: translateY(-150%);
     font-size: 0.8rem;
     color: #5fa8d3;
+   
 }
 #Exempelform > input:focus + #Exempelform label::after
 #Exempelform > input:valid + #Exempelform label::after {
     transform: translateX(0%);
+    
 }
 
 .form input:focus + .input-label .label-content,
@@ -976,6 +983,7 @@ width: 980px;
     font-size: 0.6rem;
     color: #5fa8d3;
     margin-left: -1rem;
+    background-color: #FBFBFB;
 }
 
 
@@ -1235,6 +1243,10 @@ width: 980px;
     text-decoration: none;
 }
 
+.navnav3 img:hover {
+    background-color: #333333;
+    border-radius: 25%;
+}
 .ikoner2 img{
     margin-right: 1rem;
     position: relative;
@@ -1242,3 +1254,5 @@ width: 980px;
     right: 1rem;
     
 }
+
+
