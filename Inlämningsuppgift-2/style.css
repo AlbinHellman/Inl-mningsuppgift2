@@ -818,7 +818,6 @@ width: 980px;
     margin-left: -1rem;
     position: relative;
     bottom: 53rem;
-    overflow-x: hidden;
 }
 #box-33 {
     grid-area: m;
@@ -843,18 +842,23 @@ width: 980px;
     margin-right: -5rem;
     position: relative;
     top: 2rem;
-    overflow-x: hidden;
+    overflow-y: hidden;
+    
 }
 .siffror6 img{
     height: 500px;
     width: 200px;
+    position: relative;
+    top: 3rem;
    
 
 }
 .siffror7 img {
-    
     height: 500px;
     width: 220px;
+   margin-left: -19.5rem;
+   
+  
     
     
     
@@ -866,7 +870,11 @@ width: 980px;
 
 .siffror8 img{
     height: 500px;
-    width: 200px;
+    width: 150px;
+    position: relative;
+   top: 3rem;
+    
+    
     
 
     
@@ -877,6 +885,13 @@ width: 980px;
 
 #box-34{
     grid-area: a;
+    position: relative;
+    bottom: 35rem;
+    margin-top: -1rem;
+    
+    
+    
+    
 }
 
 
@@ -902,6 +917,9 @@ width: 980px;
     position: relative;
     top: 7rem;
     right: 4rem;
+    
+    
+    
     
     
     
