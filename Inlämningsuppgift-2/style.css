@@ -622,9 +622,10 @@ margin-top: 14rem;
 
 .box-18 p {
     position: relative;
-    margin-right: 60rem;
+    width: 570px;
     color: #8A8A8A;
     text-align: left;
+    
     left: 10rem;
     margin-bottom: -10rem;
 }
