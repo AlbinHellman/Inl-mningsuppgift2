@@ -5,14 +5,7 @@
     
     }
 
-.toppen img{
-    max-width: 100%;
-    max-height: 100%;
-}
 
-.toppen {
-position: relative;
-}
 
 .textentillbilden {
 position: absolute;
@@ -143,56 +136,12 @@ display: flex;
 
 
 
-.grid33 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-    position: relative;
-bottom: 37rem;
-margin:0 auto;
-width: 1200px;
 
 
-   
-    
-    
-    
-    
-    
-  
-  
-  
-  grid-template-areas: "h h h a a"
-                      "f f f a a"
-                      "b i j a a "
-
-}
-
-#box-1 {
-    grid-area: h;
-    
-    
-    
-}
-
-#box-1 h1 {
-    font-size: 57px;
-    font-weight: bold;
-    font-family: 'Poppins', serif;
-    color:#FFFFFF;
-    position: absolute;
-    top: 5rem;
-    width: 600px;
-
-    
-  
-}
 
 
-#box-2 {
-    grid-area: a;
-    margin-top: -3rem;
-}
+
+
 
 
 
@@ -1294,6 +1243,42 @@ width: 980px;
       padding: 0.5rem;
       margin: 0.5rem;
     }
+    #box-1 {
+        grid-area: h;
+        
+        
+        
+    }
+    
+    #box-1 h1 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Poppins', serif;
+        color:black;
+        position: relative;
+        top: 15rem;
+        width: 300px;
+        margin-left: 3rem;
+    
+        
+      
+    }
+    .toppen img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .toppen {
+    position: relative;
+    }
+
+    #box-2 {
+        grid-area: a;
+        margin-top: 15rem;
+        margin-bottom: 25rem;
+        margin-left: 1rem;
+    }
+
     .tja{
         position: relative;
         margin-left: 4rem;
@@ -1353,6 +1338,64 @@ width: 980px;
 
 
 @media (min-width: 1200px) { 
+    #box-1 {
+        grid-area: h;
+        
+        
+        
+    }
+    
+    #box-1 h1 {
+        font-size: 57px;
+        font-weight: bold;
+        font-family: 'Poppins', serif;
+        color:#FFFFFF;
+        position: absolute;
+        top: 5rem;
+        width: 600px;
+    
+        
+      
+    }
+    
+    #box-2 {
+        grid-area: a;
+        margin-top: -3rem;
+    }
+
+    .toppen img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.toppen {
+position: relative;
+}
+    .grid33 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        position: relative;
+    bottom: 37rem;
+    margin:0 auto;
+    width: 1200px;
+    
+    
+       
+        
+        
+        
+        
+        
+      
+      
+      
+      grid-template-areas: "h h h a a"
+                          "f f f a a"
+                          "b i j a a "
+    
+    }
+    
     .nav-link {
         padding: 0.5rem;
         margin: 0.5rem;
