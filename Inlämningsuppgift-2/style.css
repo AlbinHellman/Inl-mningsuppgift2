@@ -395,18 +395,8 @@ margin-top: 14rem;
     right: 2rem;
 }
 
-.bakgrund-bild{
-    text-align: center;
-    position: relative;
-    bottom: 17rem;
-}
-.bakgrundsbild2 img{
-    height: 100%;
-    width: 100%;
-    position: relative;
-    bottom: 12rem;
-    background-color: #1487FD;
-}
+
+
 
 
 .grid99 {
@@ -446,57 +436,11 @@ width: 980px;
 
 }
 
-#box-30 {
-    grid-area: h;
-    margin-top: -20rem;
-    width: 250px;
-    
-    
-}
-#box-30 h1{
-    font-size: 50;
-    color: #FFFFFF;
-    margin-right: -25rem;
-    font-weight: bold;
-    margin-top: -14rem;
-    
-    
-    
-}
 
-#box-31 {
-    grid-area: k;
-    
-   
-    
-   
-}
-#box-31 p{
-    color: #FFFFFF;
-    font-family: 'Roboto', serif;
-    font-size: 16;
-    position: relative;
-    bottom: 53rem;
-    width: 600px;
-    
-    
-}
 
-#box-32 {
-    grid-area: b;
-    margin-left: -1rem;
-    position: relative;
-    bottom: 53rem;
-    overflow-x: hidden;
-}
-#box-33 {
-    grid-area: m;
-    margin-left: -34rem;
-    position: relative;
-    bottom: 53rem;
-    left: 130px;
-    overflow-x: hidden;
-}
+
+
+
 
 
 
@@ -561,18 +505,7 @@ width: 980px;
 
 
 
-#box-34{
-    grid-area: a;
-    position: relative;
-    bottom: 30rem;
-    overflow: hidden;
-    width: 500px;
-    
-    
-    
-    
-    
-}
+
 
 
 .contact21 {
@@ -1332,14 +1265,15 @@ width: 980px;
     }
 
     .statistics h1 {
-        text-align: center;
         margin-top: 2rem;
+        margin-left: 2rem;
         font-size: 40px;
         font-family: 'Roboto', serif;
         font-weight: bolder;
     }
     .statistics p {
-        text-align: center;
+        width: 200px;
+        margin-left: 2rem;
         margin-bottom: 3rem;
         font-family: 'Roboto', serif;
         color:#8A8A8A;
@@ -1352,7 +1286,91 @@ width: 980px;
         
         
     }
+
+    .bakgrund-bild{
+        text-align: center;
+        position: relative;
+        bottom: 30rem;
+        
+    }
+
+    .bakgrundsbild2 img{
+        height: 70rem;
+        width: 100%;
+        position: relative;
+        bottom: 35rem;
+        background-color: #1487FD;
+    }
+
+    #box-30 {
+        grid-area: h;
+        margin-top: -69rem;
+        margin-left: 2rem;
+        width: 250px;
+        
+        
+    }
+    #box-30 h1{
+        font-size: 50;
+        color: #FFFFFF;
+        width: 300PX;
+        margin-top: -33rem;
+        font-weight: bold;
+        
+        
+        
+        
+    }
+
+    #box-31 {
+        grid-area: k;
+        
+       
+        
+       
+    }
+    #box-31 p{
+        color: #FFFFFF;
+        font-family: 'Roboto', serif;
+        font-size: 16;
+        position: relative;
+        bottom: 110rem;
+        left: 2rem;
+        width: 300px;
+        
+        
+    }
+
+    #box-32 {
+        grid-area: b;
+        
+        position: relative;
+        bottom: 103rem;
+        overflow-x: hidden;
+        margin-left: 1rem;
+    }
+    #box-33 {
+        grid-area: m;
+        margin-left: -40rem;
+        position: relative;
+        bottom: 110rem;
+        
+        overflow-x: hidden;
+    }
  
+    #box-34{
+        grid-area: a;
+        position: relative;
+        bottom: 66rem;
+        overflow: hidden;
+        width: 500px;
+        margin-left: -46rem;
+        
+        
+        
+        
+        
+    }
 
 @media (min-width: 768px) { ... }
 
@@ -1719,6 +1737,7 @@ position: relative;
 
     .statistics h1 {
         text-align: center;
+        margin-right: 2rem;
         margin-top: 5rem;
         font-size: 40px;
         font-family: 'Roboto', serif;
@@ -1726,6 +1745,8 @@ position: relative;
     }
     .statistics p {
         text-align: center;
+        width: 500px;
+        margin-left: 32rem;
         margin-bottom: 3rem;
         font-family: 'Roboto', serif;
         color:#8A8A8A;
@@ -1734,10 +1755,96 @@ position: relative;
     .row-6 {
         display: flex;
         text-align: center;
+        position: relative;
+        top: 2rem;
     }
     .row-9 {
         display: flex;
         text-align: center;
         position: relative;
         top: 3rem;
+    }
+
+    .bakgrund-bild{
+        text-align: center;
+        position: relative;
+        bottom: 17rem;
+    }
+
+    .bakgrundsbild2 img{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        bottom: 12rem;
+        background-color: #1487FD;
+    }
+
+    #box-30 {
+        grid-area: h;
+        margin-top: -20rem;
+        width: 250px;
+        
+        
+    }
+    #box-30 h1{
+        font-size: 50;
+        color: #FFFFFF;
+        margin-right: -25rem;
+        font-weight: bold;
+        margin-top: -14rem;
+        width: 650px;
+        position: relative;
+        right: 2rem;
+        
+        
+        
+    }
+
+    #box-31 {
+        grid-area: k;
+        
+       
+        
+       
+    }
+    #box-31 p{
+        color: #FFFFFF;
+        font-family: 'Roboto', serif;
+        font-size: 16;
+        position: relative;
+        left: -1px;
+        bottom: 53rem;
+        width: 600px;
+        
+        
+        
+    }
+
+    #box-32 {
+        grid-area: b;
+        margin-left: -1rem;
+        position: relative;
+        bottom: 53rem;
+        overflow-x: hidden;
+    }
+    #box-33 {
+        grid-area: m;
+        margin-left: -34rem;
+        position: relative;
+        bottom: 53rem;
+        left: 130px;
+        overflow-x: hidden;
+    }
+    #box-34{
+        grid-area: a;
+        position: relative;
+        bottom: 30rem;
+        overflow: hidden;
+        width: 500px;
+        left: 45rem;
+        
+        
+        
+        
+        
     }
