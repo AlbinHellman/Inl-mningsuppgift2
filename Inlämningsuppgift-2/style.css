@@ -811,14 +811,7 @@ width: 980px;
 
 }
 
-.container34 img{
 
-    max-width: 122%;
-    max-height: 100%;
-    overflow-x: hidden;
-    
-    
-}
 
 .container34 h1{
     color: #FFFFFF;
@@ -829,40 +822,19 @@ width: 980px;
 }
 
 
-.center55{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.center55 h1{
-    position: absolute;
-    left: 13.5rem;
-    bottom: 4rem;
-    
-}
+
+
 
 .center55 h1:hover{
     color: black;
 }
 
-.rundikon2 {
-    margin-left: 7rem;
-    
-    
-    
-}
 
 
 
 
-.tja44 {
-    display: flex;
-    position: relative;
-    top: 2rem;
-    right: 3rem;
-    
-}
+
+
 .navbar77 {
     color: #FFFFFF;
     font-family: 'Roboto', serif;
@@ -891,7 +863,7 @@ width: 980px;
     margin-right: 1rem;
     position: relative;
     top: 3rem;
-    right: 1rem;
+    right: 6rem;
     overflow-x: hidden;
     
     
@@ -1386,6 +1358,38 @@ width: 980px;
         margin-left: -16rem;
         
     }
+
+    .container34 img{
+
+        max-width: 25%;
+        max-height: 25%;
+        overflow-x: hidden;
+        position: relative;
+        right: 19rem;
+    }
+
+    .center55{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        
+        
+    }
+
+    .center55 h1{
+        position: absolute;
+        right: 33rem;
+        bottom: 4rem;
+        
+    }
+
+    .rundikon2 {
+        margin-left: 10rem;
+        
+        
+        
+    }
+    
 @media (min-width: 768px) { ... }
 
 
@@ -1929,5 +1933,49 @@ position: relative;
 
         text-align: center;
         margin-left: 2rem;
+        
+    }
+
+    .container34 img{
+
+        max-width: 122%;
+        max-height: 100%;
+        overflow-x: hidden;
+        position: relative;
+        left:0rem;
+        
+        
+        
+    }
+
+    .center55{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        
+        
+    }
+
+    .center55 h1{
+        position: absolute;
+        left: 13.5rem;
+        bottom: 4rem;
+        
+    }
+
+    .rundikon2 {
+        margin-left: 7rem;
+        position: relative;
+        bottom: rem;
+        
+        
+        
+    }
+
+    .tja44 {
+        display: flex;
+        position: relative;
+        top: 2rem;
+        right: 3rem;
         
     }
