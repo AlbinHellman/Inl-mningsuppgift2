@@ -21,12 +21,7 @@
 
 
 
-.rundikon {
-    padding-top: 1.3rem;
-    position: relative;
-    left: 17.5rem;
-    margin-right: 17rem;
-}
+
 
 .navnav h1:hover {
     color: black;
@@ -171,9 +166,7 @@
 
 
 
-#box-8 {
-    grid-area: x;
-}
+
 
 
 
@@ -594,6 +587,14 @@
 
 @media (min-width: 375px) {
 
+    .rundikon {
+        
+        position: relative;
+        top: 2rem;
+        left: 17.5rem;
+        margin-right: 17rem;
+    }
+
     
    .navnav h1{
     color: #FFFFFF;
@@ -602,6 +603,7 @@
     font-weight: bold;
     position: absolute;
     margin-left: 10rem;
+    top: 1rem;
 
     
    
@@ -614,9 +616,9 @@
         background-color:#FFBB00;
         height: 2.7rem;
         border-radius: 10px;
-        width: 8rem;
-        margin-top: 4rem;
-        margin-left: -32.5rem;
+        width: 200px;
+        margin-top: 10rem;
+        margin-left: -20rem;
         
     }
 
@@ -633,11 +635,12 @@
     }
     .navbar {
         color: #FFBB00;
-        font-size: 18px;
+        font-size: 60px;
         font-family: 'Roboto', serif;
         margin-left: -9rem;
         font-weight: Medium;
-        margin-top:-6.6rem;
+        margin-top: 1rem;
+        bottom: 1rem;
         
         
       
@@ -646,9 +649,9 @@
     .navbar-brand {
         color:#FFFFFF;
         font-family: 'Roboto', serif;
-        margin-top: -1.5rem;
+        margin-top: 2.5rem;
         margin-left: 1rem;
-        font-size: 18px;
+        font-size: 60px;
         font-weight: Medium;
         
         
@@ -659,12 +662,13 @@
 
     .nav2  {
         color:#FFFFFF;
-        font-size: 18px;
+        font-size: 60px;
         font-family: 'Roboto', serif;
-        margin-top: -1.2rem;
+        margin-top: 3rem;
         margin-left: 1rem;
         margin-right: 3rem;
         font-weight: Medium;
+        width: 300px;
     }
     #box-1 {
         grid-area: h;
@@ -674,22 +678,23 @@
     }
     
     #box-1 h1 {
-        font-size: 30px;
+        font-size: 70px;
         font-weight: bold;
         font-family: 'Poppins', serif;
         color: #FFFFFF;
         position: absolute;
-        bottom: 34rem;
+        bottom: 30rem;
         margin-left: 2rem;
+        left: 20rem;
 
-        width: 300px;
+        width: 900px;
         
     
         
       
     }
     .toppen img{
-        width: 33rem;
+        width: 350%;
         height: 40rem;
     }
     
@@ -701,7 +706,8 @@
         grid-area: a;
         margin-top: -14rem;
         margin-bottom: 25rem;
-        margin-left: 1rem;
+        position: relative;
+        left: 30rem;
     }
 
     #box-3 {
@@ -711,16 +717,18 @@
     }
 
     #box-3 p {
-        color: #FFFFFF;
+        color: black;
         font-style: 'Poppins', serif;
         position: absolute;
-        top: 17rem;
-        width: 300px;
+        top: 25rem;
+        width: 700px;
+        font-size: 40px;
+        left: 22rem;
     }
 
     #box-4 {
         grid-area: b;
-        margin-left: 2rem;
+        margin-left: 22rem;
         
         
     }
@@ -728,7 +736,7 @@
     #box-5 img{
         position: relative;
         bottom: 45rem;
-        left: 6rem;
+        left: 34rem;
     }
 
     
@@ -739,11 +747,11 @@
     #box-6 p {
         font-family: 'Roboto', serif;
         font-weight: Medium;
-        font-size: 16px;
+        font-size: 30px;
         position: relative;
         bottom: 44rem;
-        left: 3rem;
-        width: 90px;
+        left: 31rem;
+        width: 300px;
         color: #FFFFFF;
           
     }
@@ -753,13 +761,19 @@
         color: #333333;
     }
 
-    .tja{
+    .tja {
         position: relative;
         bottom: 20rem;
-        width: 200px;
-        margin-bottom: -22rem;
-        margin-left: 2rem;
         
+        
+        margin-bottom: -22rem;
+        margin-left: 30rem;
+        
+    }
+
+    #box-8{
+        grid-area: x;
+        margin-bottom: -10rem;
     }
     #box-9 {
         grid-area: v;
@@ -776,10 +790,11 @@
         font-weight: bold;
         position: relative;
         bottom: 35rem;
-        font-size: 30px;
+        font-size: 100px;
         text-align: LEFT;
-        margin-left: 1rem;
-        width: 300px;
+        margin-left: 15rem;
+        width: 700px;
+        margin-top: 10rem;
        
         
         
@@ -793,11 +808,11 @@
     }
     
     #box-10 p {
-       font-size: 16px;
+       font-size: 30px;
        margin-top: -35rem;
        color:#8A8A8A;
-       margin-left: 1rem;
-       width: 250px;
+       margin-left: 8rem;
+       width: 800px;
        
        
     
@@ -806,8 +821,9 @@
 
     .row-1 {
         position: absolute;
-        margin-top: 15rem;
-        
+        margin-top: 5rem;
+        margin-left: 15rem;
+        display: flex;
         
     }
     
@@ -906,7 +922,8 @@
         grid-area: z;
         margin-top: 7rem;
         margin-bottom: 3rem;
-        margin-left: 6rem;
+        margin-left: 30rem;
+        
         
     }
     
@@ -915,8 +932,8 @@
     .btn-about {
         background-color: #FFBB00;
         border-radius: 8px;
-        height: 2rem;
-        width: 6rem;
+        height: 3rem;
+        width:10rem;
         margin-bottom: -3rem;
         opacity: 15%;
     }
@@ -927,7 +944,8 @@
         position: absolute;
         color: #FFBB00;
         font-family: 'Roboto', serif;
-        font-size: 16;
+        font-size: 30px;
+        width: 300px;
         font-weight: medium;
         margin-left: 15px;
         }
@@ -992,9 +1010,10 @@
     #box-17 h1{
         position: relative;
         bottom: 3rem;
-        width: 300px;
-        left: 1rem;
+        width: 700px;
+        left: 10rem;
         margin-top: 60rem;
+        font-size: 100px;
         
     }
 
@@ -1015,11 +1034,12 @@
     
     .box-18 p {
         position: relative;
-        width: 300px;
+        width: 600px;
         color: #8A8A8A;
         text-align: left;
-        left: 1rem;
+        left: 10rem;
         margin-bottom: -10rem;
+        font-size: 40px
     }
 
     .container1 {
@@ -1034,14 +1054,15 @@
 
     .statistics h1 {
         margin-top: 2rem;
-        margin-left: 2rem;
-        font-size: 40px;
+        margin-left: 10rem;
+        font-size: 100px;
         font-family: 'Roboto', serif;
-        font-weight: bolder;
+        font-weight: bold;
     }
     .statistics p {
-        width: 200px;
-        margin-left: 2rem;
+        width: 700px;
+        font-size: 40px;
+        margin-left: 10rem;
         margin-bottom: 3rem;
         font-family: 'Roboto', serif;
         color:#8A8A8A;
@@ -1064,7 +1085,7 @@
 
     .bakgrundsbild2 img{
         height: 70rem;
-        width: 100%;
+        width: 400%;
         position: relative;
         bottom: 35rem;
         background-color: #1487FD;
@@ -1081,9 +1102,11 @@
     #box-30 h1{
         font-size: 50;
         color: #FFFFFF;
-        width: 300PX;
+        width: 1000PX;
+        margin-left: 10rem;
         margin-top: -33rem;
         font-weight: bold;
+        font-size: 100px;
         
         
         
@@ -1100,11 +1123,11 @@
     #box-31 p{
         color: #FFFFFF;
         font-family: 'Roboto', serif;
-        font-size: 16;
+        font-size: 40px;
         position: absolute;
-        bottom: 140rem;
-        left: 2rem;
-        width: 300px;
+        bottom: 115rem;
+        left: 23rem;
+        width: 700px;
         
         
     }
@@ -1113,15 +1136,16 @@
         grid-area: b;
         
         position: relative;
-        bottom: 103rem;
+        bottom: 75rem;
+        
         overflow-x: hidden;
-        margin-left: 1rem;
+        margin-left: 22rem;
     }
     #box-33 {
         grid-area: m;
         margin-left: -40rem;
         position: relative;
-        bottom: 110rem;
+        bottom: 80rem;
         
         overflow-x: hidden;
     }
@@ -1222,11 +1246,13 @@
     .row-15 {
         display: flex;
         position: relative;
-        margin-right: -15rem;
+        margin-right: -13rem;
         overflow-y: hidden;
         overflow-x: hidden;
         
     }
+
+    
 
     
 
@@ -1491,7 +1517,9 @@
 
 
 @media (min-width: 1200px) { 
-
+  .rundikon {
+      margin-top: -7.5rem;
+  }
     .navnav h1{
         color: #FFFFFF;
         font-family: 'Poppins' serif;
@@ -1499,6 +1527,7 @@
         font-weight: bold;
         position: absolute;
         margin-left: 10rem;
+        margin-top: -1rem;
     
         
        
@@ -1513,7 +1542,7 @@
         border-radius: 10px;
         width: 8rem;
         margin-top: 10px;
-        margin-left: 0rem;
+        margin-left: -10rem;
         
         
     }
@@ -1528,7 +1557,7 @@
     .navbar-brand {
         color:#FFFFFF;
         font-family: 'Roboto', serif;
-        padding-top: 2.5rem;
+        margin-top: 1rem;
         margin-left: 1rem;
         font-size: 18px;
         font-weight: Medium;
@@ -1545,7 +1574,8 @@
         font-family: 'Roboto', serif;
         margin-left: 23rem;
         font-weight: Medium;
-        margin-top: 0.4rem;
+        margin-top: 1.8rem;
+        
         
         
       
@@ -1559,6 +1589,7 @@
         margin-left: 1rem;
         margin-right: 3rem;
         font-weight: Medium;
+        margin-top: -1rem;
     }
     #box-1 {
         grid-area: h;
@@ -1575,7 +1606,8 @@
         position: absolute;
         top: 5rem;
         width: 600px;
-        margin-left: -0rem;
+       
+        margin-left: -20rem;
         margin-top: 2rem;
         
     
@@ -1590,6 +1622,10 @@
     #box-2 {
         grid-area: a;
         margin-top: 3rem;
+        margin-right: 26rem;
+        position: relative;
+        
+        
     }
 
     #box-3 {
@@ -1603,6 +1639,8 @@
         position: absolute;
         top: 17rem;
         width: 400px;
+        font-size: 16px;
+        margin-left: -22rem;
     }
 
     .toppen img{
@@ -1639,6 +1677,12 @@
 
 #box-6 p:hover {
     color: #333333;
+}
+
+#box-8 {
+    margin-top: 10rem;
+    position: relative;
+    bottom: 7rem;
 }
 
 
@@ -1756,7 +1800,7 @@ position: relative;
 
     .row-1 {
         position: absolute;
-        left: 30rem;
+        left: 15rem;
         display: flex;
         margin-top: -8rem;
     }
@@ -1874,7 +1918,7 @@ position: relative;
         position: absolute;
         color: #FFBB00;
         font-family: 'Roboto', serif;
-        font-size: 16;
+        font-size: 16px;
         font-weight: medium;
         margin-left: 15px;
         }
@@ -1941,6 +1985,7 @@ position: relative;
         width: 500px;
         left: 10rem;
         margin-top: -0rem;
+        font-size: 40px;
         
     }
 
@@ -1963,6 +2008,7 @@ position: relative;
         text-align: left;
         left: 10rem;
         margin-bottom: -10rem;
+        font-size: 16px;
     }
 
     .container1 {
@@ -1977,7 +2023,8 @@ position: relative;
 
     .statistics h1 {
         text-align: center;
-        margin-right: 2rem;
+        font-size: 40px;
+        margin-right: 8rem;
         margin-top: 5rem;
         font-size: 40px;
         font-family: 'Roboto', serif;
@@ -1986,6 +2033,7 @@ position: relative;
     .statistics p {
         text-align: center;
         width: 500px;
+        font-size: 16px;
         margin-left: 32rem;
         margin-bottom: 3rem;
         font-family: 'Roboto', serif;
@@ -2034,7 +2082,8 @@ position: relative;
         margin-top: -14rem;
         width: 650px;
         position: relative;
-        right: 2rem;
+        right: 12rem;
+        font-size: 50px;
         
         
         
@@ -2050,7 +2099,7 @@ position: relative;
     #box-31 p{
         color: #FFFFFF;
         font-family: 'Roboto', serif;
-        font-size: 16;
+        font-size: 16px;
         position: relative;
         left: -1px;
         bottom: 53rem;
@@ -2399,6 +2448,10 @@ position: relative;
     margin:0 auto;
     width: 980px;
     
+
+    #box-8 {
+        grid-area: x;
+    }
     
     
     
