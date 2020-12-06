@@ -114,15 +114,7 @@
     font-weight: Medium;
     
 }
-.btn-orange {
-    background-color:#FFBB00;
-    height: 2.7rem;
-    border-radius: 10px;
-    width: 8rem;
-    margin-top: 10px;
-    
-    
-}
+
 
 .btn-orange:hover{
     background-color:#9e8636;
@@ -192,12 +184,7 @@
     
 }
 
-#box-5 img{
-    
-    position: absolute;
-    top: 22rem;
-    left: 10rem;
-}
+
 
 
 #box-6 {
@@ -205,22 +192,9 @@
     
 }
 
-#box-6 {
-    
-    color: #FFFFFF;
-    
-}
 
-#box-6 p {
-    font-family: 'Roboto', serif;
-    font-weight: Medium;
-    font-size: 16px;
-    position: absolute;
-    top: 22.5rem;
-    left: 15rem; 
-    width: 90px;
-      
-}
+
+
 
 
 
@@ -859,6 +833,16 @@ width: 980px;
 
 
 @media (min-width: 300px) {
+    
+    .btn-orange {
+        background-color:#FFBB00;
+        height: 2.7rem;
+        border-radius: 10px;
+        width: 8rem;
+        margin-top: 4rem;
+        margin-left: -64rem;
+        
+    }
 
     .textentillbilden {
         position: absolute;
@@ -903,7 +887,7 @@ width: 980px;
 
     #box-2 {
         grid-area: a;
-        margin-top: 15rem;
+        margin-top: -14rem;
         margin-bottom: 25rem;
         margin-left: 1rem;
     }
@@ -927,6 +911,30 @@ width: 980px;
         margin-left: 2rem;
         
         
+    }
+
+    #box-5 img{
+        position: relative;
+        bottom: 45rem;
+        left: 6rem;
+    }
+
+    #box-6 {
+    
+        color: #FFFFFF;
+        
+    }
+
+    #box-6 p {
+        font-family: 'Roboto', serif;
+        font-weight: Medium;
+        font-size: 16px;
+        position: absolute;
+        bottom: 41rem;
+        left: 6rem;
+        width: 90px;
+        color: black;
+          
     }
 
     .tja{
@@ -1076,6 +1084,8 @@ width: 980px;
         top: 20px;
         left: 10px;
     }
+
+    
 
     #box-7 {
         grid-area: z;
@@ -1420,11 +1430,22 @@ width: 980px;
 
 @media (min-width: 1200px) { 
 
+    .btn-orange {
+        background-color:#FFBB00;
+        height: 2.7rem;
+        border-radius: 10px;
+        width: 8rem;
+        margin-top: 10px;
+        margin-left: 0rem;
+        
+        
+    }
+    
     .textentillbilden {
         position: absolute;
         top: 1rem;
         display: flex;
-        margin-left: 0.1rem;
+        margin-left: 0rem;
     }
     #box-1 {
         grid-area: h;
@@ -1441,7 +1462,7 @@ width: 980px;
         position: absolute;
         top: 5rem;
         width: 600px;
-        margin-left: -0.1rem;
+        margin-left: -0rem;
         margin-top: 2rem;
         
     
@@ -1456,7 +1477,7 @@ width: 980px;
 
     #box-3 {
         grid-area: f;
-        margin-left: -0.1rem;
+        margin-left: -0rem;
     }
 
     #box-3 p {
@@ -1474,8 +1495,23 @@ width: 980px;
 
 #box-4 {
     grid-area: b;
-    margin-left: -0.1rem;
+    margin-left: -0rem;
 }
+
+#box-5 img{
+    
+    position: absolute;
+    top: 22rem;
+    left: 10rem;
+}
+
+#box-6 {
+
+    color: #FFFFFF;
+    
+}
+
+
 
 .toppen {
 position: relative;
@@ -1726,7 +1762,7 @@ position: relative;
     #box-15 {
         grid-area: h;
         margin-top: -5rem;
-        margin-left: -0.1rem;
+        margin-left: -0rem;
         
     }
     .btn-features {
@@ -1774,7 +1810,7 @@ position: relative;
         bottom: 4rem;
         width: 500px;
         left: 10rem;
-        margin-top: -0.1rem;
+        margin-top: -0rem;
         
     }
 
@@ -1783,7 +1819,7 @@ position: relative;
         position: absolute;
         margin-left: -30rem;
         margin-bottom: 100rem;
-        margin-top: -0.1rem;
+        margin-top: -0rem;
         
     }
     #box-18 {
@@ -1982,7 +2018,7 @@ position: relative;
     }
 
     .Enter3 {
-        margin-left: -0.1rem;
+        margin-left: -0rem;
     }
 
     .knapp2 {
@@ -2035,3 +2071,5 @@ position: relative;
         right: 3rem;
         
     }
+
+   
