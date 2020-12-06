@@ -3,6 +3,7 @@
     padding:0px;
     margin:0px;
     
+    
     }
 
 
@@ -226,6 +227,7 @@ margin-top: 14rem;
 
 
 
+
    
     
     
@@ -338,6 +340,7 @@ margin-top: 14rem;
     position: relative;
 margin:0 auto;
 width: 980px;
+
 
 
 
@@ -1328,8 +1331,8 @@ width: 980px;
         font-family: 'Roboto', serif;
         font-size: 40px;
         color: #333333;
-        position: relative;
-        right:26rem;
+        margin-left: -55rem;
+        bottom: 1rem;
         
         
         
@@ -1346,11 +1349,12 @@ width: 980px;
         left: 3rem;
         overflow-x: hidden;
         text-align: left;
+        
     }
 
     .Enter {
        margin-left: 2rem;
-        margin-top: -10rem;
+        margin-top: 1rem;
         
         
      }
@@ -1360,11 +1364,12 @@ width: 980px;
         margin-top: 4rem;
         margin-left: 2rem;
         
+        
     }
 
     .Enter3 {
         position: absolute;
-        top: 45rem;
+        top: 47rem;
         margin-left: 2rem;
     }
 
@@ -1383,12 +1388,23 @@ width: 980px;
         margin-left: -35rem;
     }
 
+    .row-15 {
+        display: flex;
+        position: relative;
+        top: 2rem;
+        right: 3rem;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        
+    }
+
     
 
     .rundikon2 img{
-        margin-left: -19rem;
+        
         position: relative;
-        bottom: 17.5rem;
+        top: 8.5rem;
+        left: -47rem;
         height: 1rem;
         width: 1rem;
         
@@ -1409,25 +1425,36 @@ width: 980px;
         .tja44 {
             
             position: relative;
-            bottom: 10rem;
-            right: 4rem;
+            top: 10rem;
+            right: rem;
             
         }
 
+        
+
         .navnav22 h1{
-            margin-left: -25rem;
-          position: relative;
-          top: 3rem;
-          color: #FFFFFF;
+            position: absolute;
+            left: 5rem;
+            top: 48rem;
+            font-size: 41px;
+            font-family: 'Poppins', serif;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+    
+        .navnav22 h1:hover{
+            color: black;
         }
 
         .ikoner2 img{
-            margin-right: 1rem;
-            width: 1rem;
-            height: 1rem;
-            top: 3rem;
-            right: 15rem;
+            position: relative;
+            margin-right: 2rem;
+            width: 2rem;
+            height: 2rem;
+            top: 30rem;
+            right: 17rem;
             overflow-x: hidden;
+            
             
             
         }
@@ -2057,7 +2084,7 @@ position: relative;
         color: #333333;
         position: relative;
         top: 7rem;
-        right:4rem;
+        left: 23rem;
         
         
         
@@ -2075,6 +2102,7 @@ position: relative;
         width: 550px;
         overflow-x: hidden;
         text-align: center;
+        
     }
 
     .Enter {
@@ -2118,8 +2146,9 @@ position: relative;
     .rundikon2 {
         margin-left: 7rem;
         position: relative;
-        top: 26.5rem;
-        right: 9.5rem;
+        top: 0.5rem;
+        right: -19.5rem;
+        
         
         
         
@@ -2127,7 +2156,7 @@ position: relative;
 
     .navnav22 h1{
         position: absolute;
-        left: 50rem;
+        left: 25rem;
         top: 48rem;
         font-size: 41px;
         font-family: 'Poppins', serif;
@@ -2164,10 +2193,12 @@ position: relative;
 
     .ikoner2 img{
         
-       
+        width: 2rem;
+        height: 2rem;
+        margin-right: -6rem;
         position: relative;
         top: 11rem;
-        right: 9rem;
+        right: 2rem;
         overflow-x: hidden;
         
         
