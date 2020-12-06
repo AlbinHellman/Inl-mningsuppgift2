@@ -290,43 +290,7 @@
 
 
 
-.grid99 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-    position: relative;
-margin:0 auto;
-width: 980px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-   
-    
-    
-    
-    
-    
-  
-  
-  
-  grid-template-areas: "h h a a"
-                      "k k a a"
-                      "b b m m"
-                     
-                      
-                      
-
-}
 
 
 
@@ -360,7 +324,7 @@ width: 980px;
 .siffror7 img {
     height: 500px;
     width: 200px;
-   margin-left: -19rem;
+   margin-left: -21rem;
    overflow-x: hidden;
    
   
@@ -376,7 +340,9 @@ width: 980px;
 .siffror8 img{
     height: 500px;
     width: 200px;
+
     position: relative;
+    
    top: 3rem;
    overflow-x: hidden;
     
@@ -399,72 +365,7 @@ width: 980px;
 
 
 
-.form {
-    position: relative;
-    bottom:25rem;
-    width: 50%;
-    height: 50px;
-    overflow: hidden;
-    font-size: 1rem;
-    
-    
-}
 
-
-.form input {
-    width: 100%;
-    height: 100%;
-    color:black;
-    font-family: 'Roboto', serif;
-    position: relative;
-    border: none;
-    outline: none;
-    top: 1rem;
-    overflow-x: hidden;
-    
-}
-
-
-.label-content {
-    color:#CCCCCC;
-    font-family: 'Roboto', serif;
-    font-size: 16px;
-    position: absolute;
-    top: 1rem;
-    border: none;
-    outline: none;
-    left: 0px;
-    transition: all 0.3 ease;
-    background-color: #FBFBFB;
-    overflow-x: hidden;
-
-}
-
-
-.form label {
-    position: absolute;
-    left: 15px;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    
-    
-    
-    
-}
-
-.form label::after {
-    content: '';
-    position: absolute;
-    bottom: 3rem;
-    width: 100%;
-    height: 100%;
-    border-bottom: none;
-    transform: translateX(-101%);
-    transition: all 0.3 ease;
-    overflow-x: hidden;
-    
-}
 
 
 #Exempelform > input:focus + #Exempelform label span,
@@ -509,18 +410,7 @@ width: 980px;
 
 
 
-#Exempelform2 label {
-    position: absolute;
-    right: 3rem;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    
-    
-    
-    
-    
-}
+
 
 
 
@@ -570,41 +460,7 @@ width: 980px;
 
 
 
-#Exempelform3 {
-    position: absolute;
-    bottom:12rem;
-    overflow: hidden;
-    font-size: 1rem;
-    margin-right: 3rem;
-   border: none;
-    width: 60rem;
-    height: 12rem;
-    overflow-x: hidden;
-}
 
-
-
-#Exempelform3 > label> span {
-    color: #CCCCCC;
-    font-family: 'Roboto', serif;
-    font-size: 16px;
-    position: relative;
-    overflow-x: hidden;
-    
-
-    
-}
-
-#Exempelform3 > label {
-    
-    position: absolute;
-    right: 3rem;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    
-    
-}
 
 #Exempelform3 label::after {
     content: '';
@@ -1285,14 +1141,14 @@ width: 980px;
     }
 
     .contact21 {
-        margin: 0 auto;
-        width: 980px;
+        
         position: absolute;
-        text-align: center;
+       
         background-color: white;
         bottom: 33.35rem;
         border: none;
-        width: 70rem;
+        width: 365px;
+        
         height: 22rem;
         overflow-x: hidden;
         
@@ -1305,7 +1161,7 @@ width: 980px;
         font-family: 'Roboto', serif;
         font-size: 40px;
         color: #333333;
-        margin-left: -55rem;
+        
         bottom: 1rem;
         
         
@@ -1317,7 +1173,7 @@ width: 980px;
     
     .contact21 p{
         color: #8A8A8A;
-        margin-right: 35rem;
+        
         position: relative;
         width: 200px;
         left: 3rem;
@@ -1349,7 +1205,8 @@ width: 980px;
 
     .knapp2 {
 
-        margin-left: -16rem;
+        position: relative;
+        right: 14rem;
         
     }
 
@@ -1365,7 +1222,7 @@ width: 980px;
     .row-15 {
         display: flex;
         position: relative;
-        
+        margin-right: -15rem;
         overflow-y: hidden;
         overflow-x: hidden;
         
@@ -1463,6 +1320,162 @@ width: 980px;
                               
         
         }
+
+        .form {
+            position: relative;
+            bottom:25rem;
+            width: 365px;
+            height: 50px;
+            overflow: hidden;
+            font-size: 1rem;
+            
+            
+        }
+        
+        
+        .form input {
+            width: 365px;
+            height: 100%;
+            color:black;
+            font-family: 'Roboto', serif;
+            position: relative;
+            border: none;
+            outline: none;
+            top: 1rem;
+            overflow-x: hidden;
+            
+        }
+        
+        
+        .label-content {
+            color:#CCCCCC;
+            font-family: 'Roboto', serif;
+            font-size: 16px;
+            position: absolute;
+            top: 1rem;
+            border: none;
+            outline: none;
+            left: 0px;
+            transition: all 0.3 ease;
+            background-color: #FBFBFB;
+            overflow-x: hidden;
+        
+        }
+        
+        
+        .form label {
+            position: absolute;
+            left: 15px;
+            width: 365px;
+            height: 100%;
+            pointer-events: none;
+            
+            
+            
+            
+        }
+        
+        .form label::after {
+            content: '';
+            position: absolute;
+            bottom: 3rem;
+            width: 365px;
+            height: 100%;
+            border-bottom: none;
+            transform: translateX(-101%);
+            transition: all 0.3 ease;
+            overflow-x: hidden;
+            
+        }
+
+        #Exempelform2 label {
+            position: absolute;
+            right: 3rem;
+            width: 365px;
+            height: 100%;
+            pointer-events: none;
+            
+            
+            
+            
+            
+        }
+
+        #Exempelform3 {
+            position: absolute;
+            bottom:12rem;
+            overflow: hidden;
+            font-size: 1rem;
+            margin-right: 3rem;
+           border: none;
+            width: 365px;
+            height: 12rem;
+            overflow-x: hidden;
+        }
+        
+        
+        
+        #Exempelform3 > label> span {
+            color: #CCCCCC;
+            font-family: 'Roboto', serif;
+            font-size: 16px;
+            position: relative;
+            overflow-x: hidden;
+            
+        
+            
+        }
+        
+        #Exempelform3 > label {
+            
+            position: absolute;
+            right: 3rem;
+            width: 365px;
+            height: 100%;
+            pointer-events: none;
+            
+            
+        }
+
+        .grid99 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+            position: relative;
+        margin:0 auto;
+        width: 365px;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+           
+            
+            
+            
+            
+            
+          
+          
+          
+          grid-template-areas: "h h a a"
+                              "k k a a"
+                              "b b m m"
+                             
+                              
+                              
+        
+        }
+
+        
         
     
     
@@ -2056,7 +2069,7 @@ position: relative;
     }
     #box-33 {
         grid-area: m;
-        margin-left: -34rem;
+        margin-left: -38rem;
         position: relative;
         bottom: 53rem;
         left: 90px;
@@ -2080,7 +2093,8 @@ position: relative;
         display: flex;
         position: relative;
         top: 2rem;
-        right: 3rem;
+        right: 5rem;
+        width: 550px;
         overflow-y: hidden;
         overflow-x: hidden;
         
@@ -2109,7 +2123,7 @@ position: relative;
         color: #333333;
         position: relative;
         top: 7rem;
-        left: 23rem;
+        right: 5rem;
         
         
         
@@ -2255,6 +2269,160 @@ position: relative;
       grid-template-areas: "h h h a a"
                           "f f f a a"
                           "b b b a a "
+                         
+                          
+                          
+    
+    }
+
+    .form {
+        position: relative;
+        bottom:25rem;
+        width: 50%;
+        height: 50px;
+        overflow: hidden;
+        font-size: 1rem;
+        
+        
+    }
+    
+    
+    .form input {
+        width: 100%;
+        height: 100%;
+        color:black;
+        font-family: 'Roboto', serif;
+        position: relative;
+        border: none;
+        outline: none;
+        top: 1rem;
+        overflow-x: hidden;
+        
+    }
+    
+    
+    .label-content {
+        color:#CCCCCC;
+        font-family: 'Roboto', serif;
+        font-size: 16px;
+        position: absolute;
+        top: 1rem;
+        border: none;
+        outline: none;
+        left: 0px;
+        transition: all 0.3 ease;
+        background-color: #FBFBFB;
+        overflow-x: hidden;
+    
+    }
+    
+    
+    .form label {
+        position: absolute;
+        left: 15px;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        
+        
+        
+        
+    }
+    
+    .form label::after {
+        content: '';
+        position: absolute;
+        bottom: 3rem;
+        width: 100%;
+        height: 100%;
+        border-bottom: none;
+        transform: translateX(-101%);
+        transition: all 0.3 ease;
+        overflow-x: hidden;
+        
+    }
+
+    #Exempelform2 label {
+        position: absolute;
+        right: 3rem;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        
+        
+        
+        
+        
+    }
+
+    #Exempelform3 {
+        position: absolute;
+        bottom:12rem;
+        overflow: hidden;
+        font-size: 1rem;
+        margin-right: 3rem;
+       border: none;
+        width: 60rem;
+        height: 12rem;
+        overflow-x: hidden;
+    }
+    
+    
+    
+    #Exempelform3 > label> span {
+        color: #CCCCCC;
+        font-family: 'Roboto', serif;
+        font-size: 16px;
+        position: relative;
+        overflow-x: hidden;
+        
+    
+        
+    }
+    
+    #Exempelform3 > label {
+        
+        position: absolute;
+        right: 3rem;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        
+        
+    }
+
+    .grid99 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        position: relative;
+    margin:0 auto;
+    width: 980px;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       
+        
+        
+        
+        
+        
+      
+      
+      
+      grid-template-areas: "h h a a"
+                          "k k a a"
+                          "b b m m"
                          
                           
                           
